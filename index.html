@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecomas - Ecommerce Website</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+
+</head>
+
+<body class="bg-white text-gray-900">
+
+
+  
+<header class="fixed inset-x-0 top-0 z-50 w-full bg-[#010717] text-white shadow-lg">
+  <nav class="relative mx-auto flex min-h-16 w-full max-w-[1280px] items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8">
+
+    
+    <a href="#" class="shrink-0">
+      <img
+        src="https://preview.themewagon.com/tailstore/assets/images/template-white-logo.png"
+        alt="Ecomas Logo"
+        class="w-28 sm:w-32 lg:w-40"
+      />
+    </a>
+
+   
+    <ul class="hidden items-center gap-4 text-sm font-medium lg:flex xl:gap-7">
+      <li><a href="index.html" class="transition hover:text-pink-400">Home</a></li>
+      <li><a href="men.html" class="transition hover:text-pink-400">Men</a></li>
+      <li><a href="women.html" class="transition hover:text-pink-400">Women</a></li>
+      <li><a href="shop.html" class="transition hover:text-pink-400">Shop</a></li>
+      <li><a href="product.html" class="transition hover:text-pink-400">Product</a></li>
+      <li><a href="chekout.html" class="transition hover:text-pink-400">Checkout</a></li>
+    </ul>
+
+    
+    <div class="ml-auto flex shrink-0 items-center gap-3 lg:ml-0">
+
+      <a
+        href="#"
+        aria-label="Shopping cart"
+        class="p-2 text-lg transition hover:text-pink-400 sm:text-xl"
+      >
+        <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+
+      <label
+       
+        class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-md border border-gray-500 transition hover:bg-white/10 lg:hidden"
+      >
+        <i class="fa-solid fa-bars text-xl peer-checked:hidden"></i>
+        <i class="fa-solid fa-xmark hidden text-xl"></i>
+      </label>
+
+    </div>
+
+    
+    <div class="absolute left-0 top-full hidden w-full border-t border-gray-700 bg-[#010717] p-5 shadow-lg peer-checked:block lg:!hidden">
+      <ul class="flex flex-col gap-4 text-sm font-medium">
+        <li><a href="index.html" class="block transition hover:text-pink-400">Home</a></li>
+        <li><a href="men.html" class="block transition hover:text-pink-400">Men</a></li>
+        <li><a href="women.html" class="block transition hover:text-pink-400">Women</a></li>
+        <li><a href="shop.html" class="block transition hover:text-pink-400">Shop</a></li>
+        <li><a href="product.html" class="block transition hover:text-pink-400">Product</a></li>
+        <li><a href="chekout.html" class="block transition hover:text-pink-400">Checkout</a></li>
+      </ul>
+    </div>
+
+  </nav>
+</header>
+
+
+  <main class="pt-16">
+
+    <section class="w-full">
+      <div
+        class="relative mx-auto flex min-h-[480px] w-full max-w-[1280px] items-center justify-center overflow-hidden  bg-cover bg-center bg-no-repeat text-center text-white sm:min-h-[560px] md:min-h-[650px] lg:min-h-[700px]"
+        style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('images/bg.jpg');">
+
+        <div class="mx-auto w-full max-w-3xl">
+
+         
+
+          <h1 class="mb-5 text-3xl font-bold tracking-widest sm:text-5xl md:text-6xl lg:text-7xl">
+            Women
+          </h1>
+
+          <p class="mx-auto mb-8 max-w-xl text-sm leading-relaxed sm:text-lg md:text-xl">
+            Experience the best in sportswear with our latest collection.
+          </p>
+
+          <a href="#products"
+            class="inline-block rounded-full border border-red-600 bg-red-600 px-7 py-3 text-sm font-semibold text-white transition duration-300 hover:border-white hover:bg-transparent sm:px-9 sm:text-base">
+            Shop Now
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full ">
+      <div
+        class="relative mx-auto flex min-h-[480px] w-full max-w-[1280px] items-center justify-center overflow-hidden  bg-cover bg-center bg-no-repeat text-center text-white sm:min-h-[560px] md:min-h-[650px] lg:min-h-[700px]"
+        style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('images/gp.png');">
+
+        <div class="mx-auto w-full max-w-3xl">
+
+          <h1 class="mb-5 text-3xl font-bold tracking-widest sm:text-5xl md:text-6xl lg:text-7xl">
+            Men
+          </h1>
+
+          <p class="mx-auto mb-8 max-w-xl text-sm leading-relaxed sm:text-lg md:text-xl">
+            Discover the latest trends in men's sportswear and casual fashion.
+          </p>
+
+          <a href="#products"
+            class="inline-block rounded-full border border-red-600 bg-red-600 px-7 py-3 text-sm font-semibold text-white transition duration-300 hover:border-white hover:bg-transparent sm:px-9 sm:text-base">
+            Shop Now
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full ">
+      <div
+        class="relative mx-auto flex min-h-[480px] w-full max-w-[1280px] items-center justify-center overflow-hidden  bg-cover bg-center bg-no-repeat text-center text-white sm:min-h-[560px] md:min-h-[650px] lg:min-h-[700px]"
+        style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('images/dh.jpg');">
+
+        <div class="mx-auto w-full max-w-3xl">
+
+          <h1 class="mb-5 text-3xl font-bold tracking-widest sm:text-5xl md:text-6xl lg:text-7xl">
+            Accessories
+          </h1>
+
+          <p class="mx-auto mb-8 max-w-xl text-sm leading-relaxed sm:text-lg md:text-xl">
+            Elevate your style with our latest fashion and accessories collection.
+          </p>
+
+          <a href="#"
+            class="inline-block rounded-full border border-red-600 bg-red-600 px-7 py-3 text-sm font-semibold text-white transition duration-300 hover:border-white hover:bg-transparent sm:px-9 sm:text-base">
+            Shop Now
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section  class="mx-auto max-w-[1280px] px-4 py-3 sm:py-5 lg:py-8">
+
+      <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
+        <div>
+
+          <h2 class="text-2xl font-bold sm:text-3xl">Popular Products</h2>
+        </div>
+
+
+      </div>
+
+      <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+
+
+        <div class="product-card overflow-hidden rounded-xl bg-white p-3 shadow-md">
+          <div class="overflow-hidden rounded-lg">
+            <img src="images/na.jpg" alt="Summer black dress"
+              class="product-image aspect-[4/5] w-full rounded-lg object-cover">
+          </div>
+          <div class="p-2">
+            <p class="mt-3 text-sm text-gray-500">Women</p>
+            <h3 class="mt-1 text-lg font-semibold">Summer Black Dress</h3>
+            <p class="my-3 text-lg font-bold text-pink-900">$19.99</p>
+            <a href="#"
+              class="block rounded-full bg-pink-900 px-4 py-3 text-center font-semibold text-white transition hover:bg-pink-800">
+              Add to Cart
+            </a>
+          </div>
+        </div>
+
+        <div class="product-card overflow-hidden rounded-xl bg-white p-3 shadow-md">
+          <div class="overflow-hidden rounded-lg">
+            <img src="images/dd.jpg" alt="Black suit" class="product-image aspect-[4/5] w-full rounded-lg object-cover">
+          </div>
+          <div class="p-2">
+            <p class="mt-3 text-sm text-gray-500">Women</p>
+            <h3 class="mt-1 text-lg font-semibold">Black Suit</h3>
+            <p class="my-3 text-lg font-bold text-pink-900">$42.99</p>
+            <a href="#"
+              class="block rounded-full bg-pink-900 px-4 py-3 text-center font-semibold text-white transition hover:bg-pink-800">
+              Add to Cart
+            </a>
+          </div>
+        </div>
+
+
+        <div class="product-card overflow-hidden rounded-xl bg-white p-3 shadow-md">
+          <div class="overflow-hidden rounded-lg">
+            <img src="images/hh.jpg" alt="Black long dress"
+              class="product-image aspect-[4/5] w-full rounded-lg object-cover">
+          </div>
+          <div class="p-2">
+            <p class="mt-3 text-sm text-gray-500">Women, Accessories</p>
+            <h3 class="mt-1 text-lg font-semibold">Black Long Dress</h3>
+            <p class="my-3 text-lg font-bold text-pink-900">$29.99</p>
+            <a href="#"
+              class="block rounded-full bg-pink-900 px-4 py-3 text-center font-semibold text-white transition hover:bg-pink-800">
+              Add to Cart
+            </a>
+          </div>
+        </div>
+
+
+        <div class="product-card overflow-hidden rounded-xl bg-white p-3 shadow-md">
+          <div class="overflow-hidden rounded-lg">
+            <img src="images/gf.jpg" alt="Black leather jacket"
+              class="product-image aspect-[4/5] w-full rounded-lg object-cover">
+          </div>
+          <div class="p-2">
+            <p class="mt-3 text-sm text-gray-500">Women</p>
+            <h3 class="mt-1 text-lg font-semibold">Black Leather Jacket</h3>
+            <p class="my-3 text-lg font-bold text-pink-900">$39.99</p>
+            <a href="#"
+              class="block rounded-full bg-pink-900 px-4 py-3 text-center font-semibold text-white transition hover:bg-pink-800">
+              Add to Cart
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bg-gray-50 py-3 sm:py-5 lg:py-8">
+
+      <div class="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
+
+        <div class="mb-8">
+
+          <h2 class="text-2xl font-bold sm:text-3xl">Latest Products</h2>
+        </div>
+
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+
+
+          <div class="product-card overflow-hidden rounded-xl bg-white p-3 shadow-md">
+            <div class="overflow-hidden rounded-lg">
+              <img src="images/vv.jpg" alt="Blue women's suit"
+                class="product-image aspect-[4/5] w-full rounded-lg object-cover">
+            </div>
+            <div class="p-2">
+              <p class="mt-3 text-sm text-gray-500">Women</p>
+              <h3 class="mt-1 text-lg font-semibold">Blue Women's Suit</h3>
+              <p class="my-3 text-lg font-bold text-pink-900">$21.99</p>
+              <a href="#"
+                class="block rounded-full bg-pink-900 px-4 py-3 text-center font-semibold text-white hover:bg-pink-800">
+                Add to Cart
+              </a>
+            </div>
+          </div>
+
+
+          <div class="product-card overflow-hidden rounded-xl bg-white p-3 shadow-md">
+            <div class="overflow-hidden rounded-lg">
+              <img src="images/ll.jpg" alt="White long sleeve shirt"
+                class="product-image aspect-[4/5] w-full rounded-lg object-cover">
+            </div>
+            <div class="p-2">
+              <p class="mt-3 text-sm text-gray-500">Women</p>
+              <h3 class="mt-1 text-lg font-semibold">White Long-Sleeve Shirt</h3>
+              <p class="my-3 text-lg font-bold text-pink-900">$32.99</p>
+              <a href="#"
+                class="block rounded-full bg-pink-900 px-4 py-3 text-center font-semibold text-white hover:bg-pink-800">
+                Add to Cart
+              </a>
+            </div>
+          </div>
+
+
+          <div class="product-card overflow-hidden rounded-xl bg-white p-3 shadow-md">
+            <div class="overflow-hidden rounded-lg">
+              <img src="images/oo.jpg" alt="Yellow men's suit"
+                class="product-image aspect-[4/5] w-full rounded-lg object-cover">
+            </div>
+            <div class="p-2">
+              <p class="mt-3 text-sm text-gray-500">Men</p>
+              <h3 class="mt-1 text-lg font-semibold">Yellow Men's Suit</h3>
+              <p class="my-3 text-lg font-bold text-pink-900">$16.99</p>
+              <a href="#"
+                class="block rounded-full bg-pink-900 px-4 py-3 text-center font-semibold text-white hover:bg-pink-800">
+                Add to Cart
+              </a>
+            </div>
+          </div>
+
+
+          <div class="product-card overflow-hidden rounded-xl bg-white p-3 shadow-md">
+            <div class="overflow-hidden rounded-lg">
+              <img src="images/xb.jpg" alt="Red dress"
+                class="product-image aspect-[4/5] w-full rounded-lg object-cover">
+            </div>
+            <div class="p-2">
+              <p class="mt-3 text-sm text-gray-500">Women</p>
+              <h3 class="mt-1 text-lg font-semibold">Red Dress</h3>
+              <p class="my-3 text-lg font-bold text-pink-900">$25.99</p>
+              <a href="#"
+                class="block rounded-full bg-pink-900 px-4 py-3 text-center font-semibold text-white hover:bg-pink-800">
+                Add to Cart
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full px-4 py-8 text-center text-white sm:px-6 md:py-10">
+      <div
+        class="mx-auto flex min-h-[380px] w-full max-w-[1280px] items-center justify-center overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat px-4 py-16 sm:min-h-[440px] md:min-h-[500px] lg:min-h-[560px]"
+        style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('images/qin-fan-KfqgYzoH3Vk-unsplash.jpg');">
+        <div class="mx-auto w-full max-w-3xl">
+
+          <h2 class="mb-5 text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl">
+            Welcome to Our Shop
+          </h2>
+
+          <p class="mx-auto mb-8 max-w-xl text-sm leading-relaxed sm:text-base md:text-lg">
+            Discover new arrivals and find your next favorite look.
+          </p>
+
+          <div class="flex flex-wrap justify-center gap-3">
+
+            <a href="#"
+              class="rounded-full border border-white  px-6 py-3 text-sm font-semibold text-white transition duration-300 hover:border-white hover:text-black hover:bg-white sm:text-base">
+              Shop Now
+            </a>
+
+            <a href="#"
+              class="rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition duration-300 hover:bg-white hover:text-black sm:text-base">
+              New Arrivals
+            </a>
+
+            <a href="#"
+              class="rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition duration-300 hover:bg-white hover:text-black sm:text-base">
+              Sale
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  class="border-t border-gray-200 bg-white px-4 py-14 sm:px-6 sm:py-20">
+
+      <div class="mx-auto max-w-3xl text-center">
+
+        <h2 class="mb-4 text-2xl font-bold leading-snug sm:text-3xl">
+          Join Our Newsletter and Get
+          <span class="text-pink-900">$50 Discount</span>
+          on Your First Order
+        </h2>
+
+        <p class="mb-7 text-sm leading-relaxed text-gray-600 sm:text-base">
+          Subscribe to receive updates about our latest collections and special offers.
+        </p>
+
+        <form action="#" method="post" class="mx-auto flex w-full max-w-xl flex-col gap-3 sm:flex-row">
+
+          <label  class="sr-only">Email address</label>
+
+          <input  name="email" type="email" placeholder="Enter your email address" required
+            class="min-w-0 flex-1 rounded-full border border-gray-300 px-5 py-3 outline-none transition focus:border-pink-800 focus:ring-2 focus:ring-pink-100">
+
+          <button 
+            class="rounded-full bg-pink-800 px-7 py-3 font-semibold text-white transition hover:bg-pink-700">
+            Subscribe
+          </button>
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer  class="border-t border-gray-200 bg-gray-50">
+
+    <div
+      class="mx-auto grid max-w-[1280px] grid-cols-2 gap-x-6 gap-y-10 px-4 py-12 sm:px-6 md:grid-cols-3 lg:grid-cols-5 lg:px-8">
+
+
+      <div>
+        <h3 class="mb-4 text-lg font-bold">Shop</h3>
+        <ul class="space-y-3 text-sm text-gray-600">
+          <li><a href="product.html" class="hover:text-[#FF0042]]">Shop All</a></li>
+          <li><a href="women.html" class="hover:text-[#FF0042]]">Women</a></li>
+          <li><a href="men.html" class="hover:text-[#FF0042]]">Men</a></li>
+          <li><a href="#" class="hover:text-[#FF0042]]">Accessories</a></li>
+        </ul>
+      </div>
+
+
+      <div>
+        <h3 class="mb-4 text-lg font-bold">Pages</h3>
+        <ul class="space-y-3 text-sm text-gray-600">
+          <li><a href="index.html" class="hover:text-[#FF0042]]">Home</a></li>
+          <li><a href="shop.html" class="hover:text-[#FF0042]]">Shop</a></li>
+          <li><a href="product.html" class="hover:text-[#FF0042]]">Products</a></li>
+          <li><a href="#" class="hover:text-[#FF0042]]">Newsletter</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="mb-4 text-lg font-bold">Account</h3>
+        <ul class="space-y-3 text-sm text-gray-600">
+          <li><a href="#" class="hover:text-[#FF0042]]">Cart</a></li>
+          <li><a href="#" class="hover:text-[#FF0042]]">Registration</a></li>
+          <li><a href="#" class="hover:text-[#FF0042]]">Login</a></li>
+        </ul>
+      </div>
+
+
+      <div>
+        <h3 class="mb-4 text-lg font-bold">Follow Us</h3>
+        <ul class="space-y-3 text-sm text-gray-600">
+          <li>
+            <a href="https://facebook.com" rel="noopener noreferrer" class="hover:text-[#FF0042]]">
+              <i class="fa-brands fa-facebook mr-2"></i>Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com" rel="noopener noreferrer" class="hover:text-[#FF0042]]">
+              <i class="fa-brands fa-x-twitter mr-2"></i>Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" rel="noopener noreferrer" class="hover:text-[#FF0042]]">
+              <i class="fa-brands fa-instagram mr-2"></i>Instagram
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="col-span-2 md:col-span-1">
+        <h3 class="mb-4 text-lg font-bold">Contact Us</h3>
+
+        <p class="mb-3 text-sm leading-relaxed text-gray-600">
+          123 Street Name, Paris, France
+        </p>
+
+        <p class="mb-3 text-sm text-gray-600">
+          Phone: 8829904371
+        </p>
+
+        <a href="mailto:sainidinesh2471@gmail.com"
+          class="break-all text-sm text-gray-600 underline hover:text-[#FF0042]]">
+          sainidinesh2471@gmail.com
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="border-t border-gray-200 px-4 py-5 text-center text-sm text-gray-500">
+      © Ecomas. All rights reserved.
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
